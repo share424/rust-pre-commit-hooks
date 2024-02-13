@@ -45,3 +45,12 @@
   language: system
   entry: cargo test
   pass_filenames: false
+
+- id: audit
+  name: cargo audit
+  description: check for vulnerabilities with "cargo audit"
+  types:
+    - rust
+  language: system
+  entry: cargo audit
+  pass_filenames: false
